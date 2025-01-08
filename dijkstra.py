@@ -30,7 +30,7 @@ def findv(paths,start,to):
         r.append(u)
     return r
 
-def create_route(r):
+def creat_routes(r):
     '''生成地图路径的索引'''
     indexes = []
     for i in range(0,len(r) - 1):
